@@ -1,21 +1,12 @@
 h1 {
-    color: #111;
+    color: #a9a9a9 ;
+    background-color: #8b008b;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 250px;
     font-weight: bold;
-    letter-spacing: -1px;
+    letter-spacing: -43px;
     line-height: 1;
-    text-align: center;
-}
-
-p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: right;
 }
 
 textarea {
@@ -25,7 +16,7 @@ textarea {
 }
 
 ul, ol {
-    margin: 20px;
+    margin: 80px;
     padding: 0;
 }
 
@@ -33,7 +24,7 @@ li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
 }
-   
+
 li:last-child {
     border: none;
 }
@@ -49,4 +40,65 @@ form {
 input, textarea {
     padding:5px;
     margin:5px
+}
+
+.ugly {
+    background-color: blue;
+    color: deeppink;
+    font-style: oblique;
+    font-size: 75px;
+    line-height: .725;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center
+    
+}
+
+
+
+
+p {
+    color: blue;
+    background-color: indigo;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size:75px;
+    line-height: .50; 
+    margin: 0 0 15px;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+#more-ugly {
+    font-size: 100px;
+    color: maroon;
+    background-color: deepskyblue;
+    border-style: ridge;
+    border-color: black;
+    border-width: 100px;
+}
+
+#ugly {
+    color: green;
+    background-color: seagreen;
+    font-size: 200px;
+}
+
+#another-one {
+    color: grey;
+    background-color: yellow;
+    font-size: 150px;
+    border-style: ridge;
+    border-color: tomato;
+}
+
+#all-greens {
+    font-size: 80px;
+    color: #1e90ff;
+    background-color: #191970;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+ol {
+    font-size: 75px;
+    color: yellow;
 }
